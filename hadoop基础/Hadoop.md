@@ -43,5 +43,7 @@
 - 整个HDFS可存储的文件受限于NameNode的内存大小
 
 
-1. NameNode元数据信息
-2. 
+###### 1.NameNode元数据信息
+
+![nameNode](https://github.com/yyh769130635/hadoop_notes/blob/master/images/namenodepng.png)
+

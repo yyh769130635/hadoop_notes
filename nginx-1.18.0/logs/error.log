@@ -1,0 +1,41 @@
+2020/08/10 15:23:24 [emerg] 6028#16404: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/08/10 15:23:49 [emerg] 12004#10484: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/08/10 15:26:41 [emerg] 5864#12772: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/08/10 20:51:04 [emerg] 13648#1516: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/08/10 20:59:04 [emerg] 8600#7104: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/08/10 21:02:21 [notice] 6540#9168: signal process started
+2020/08/10 21:04:44 [notice] 5528#9860: signal process started
+2020/08/10 21:06:27 [notice] 14888#1788: signal process started
+2020/08/10 21:06:28 [notice] 1444#236: signal process started
+2020/08/10 21:09:06 [notice] 11772#2740: signal process started
+2020/08/10 21:09:11 [notice] 8988#11360: signal process started
+2020/08/10 21:12:52 [notice] 3348#7864: signal process started
+2020/08/10 21:12:54 [notice] 14952#5336: signal process started
+2020/08/10 21:17:05 [notice] 8628#15908: signal process started
+2020/08/10 21:17:07 [notice] 16124#1692: signal process started
+2020/08/10 21:17:48 [notice] 4316#14792: signal process started
+2020/08/10 21:19:01 [notice] 15724#5820: signal process started
+2020/08/10 21:19:03 [notice] 16148#15620: signal process started
+2020/08/11 08:57:41 [error] 648#13180: *102 CreateFile() "C:\Users\YGP2SZH\Desktop\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:180", referrer: "http://127.0.0.1:180/"
+2020/08/11 08:58:46 [notice] 13472#16872: signal process started
+2020/08/11 09:16:53 [error] 9172#12392: *127 CreateFile() "C:\Users\YGP2SZH\Desktop\nginx-1.18.0/html/p1" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /p1 HTTP/1.1", host: "127.0.0.1:180"
+2020/08/11 09:16:53 [error] 9172#12392: *127 CreateFile() "C:\Users\YGP2SZH\Desktop\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:180", referrer: "http://127.0.0.1:180/p1"
+2020/08/11 09:17:51 [notice] 9384#11532: signal process started
+2020/08/11 09:17:58 [notice] 12660#7192: signal process started
+2020/08/11 09:18:20 [notice] 13868#2656: signal process started
+2020/08/11 09:18:53 [notice] 17304#3388: signal process started
+2020/08/11 09:20:18 [notice] 17348#10892: signal process started
+2020/08/11 09:33:33 [notice] 16460#11976: signal process started
+2020/08/11 09:47:14 [notice] 6616#896: signal process started
+2020/08/11 09:47:15 [notice] 2824#3604: signal process started
+2020/08/11 09:47:53 [error] 10496#12400: *159 CreateFile() "C:\Users\YGP2SZH\Desktop\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:9000", referrer: "http://127.0.0.1:9000/p1/"
+2020/08/11 10:06:39 [error] 10496#12400: *163 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /p2/ HTTP/1.1", upstream: "http://127.0.0.1:8002/p2/", host: "127.0.0.1:9000"
+2020/08/11 10:10:43 [error] 10496#12400: *169 CreateFile() "C:\Users\YGP2SZH\Desktop\nginx-1.18.0/html/p1" failed (2: The system cannot find the file specified), client: 10.173.36.133, server: localhost, request: "GET /p1 HTTP/1.1", host: "sghz001022166:9000"
+2020/08/11 10:10:43 [error] 10496#12400: *169 CreateFile() "C:\Users\YGP2SZH\Desktop\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.173.36.133, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "sghz001022166:9000", referrer: "http://sghz001022166:9000/p1"
+2020/08/11 10:10:57 [error] 10496#12400: *169 CreateFile() "C:\Users\YGP2SZH\Desktop\nginx-1.18.0/html/p2" failed (2: The system cannot find the file specified), client: 10.173.36.133, server: localhost, request: "GET /p2 HTTP/1.1", host: "sghz001022166:9000"
+2020/08/11 10:11:27 [error] 10496#12400: *172 CreateFile() "C:\Users\YGP2SZH\Desktop\nginx-1.18.0/html/p2" failed (2: The system cannot find the file specified), client: 10.173.36.133, server: localhost, request: "GET /p2 HTTP/1.1", host: "sghz001022166.szh.apac.bosch.com:9000"
+2020/08/11 10:11:27 [error] 10496#12400: *172 CreateFile() "C:\Users\YGP2SZH\Desktop\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.173.36.133, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "sghz001022166.szh.apac.bosch.com:9000", referrer: "http://sghz001022166.szh.apac.bosch.com:9000/p2"
+2020/08/11 10:11:57 [error] 10496#12400: *174 CreateFile() "C:\Users\YGP2SZH\Desktop\nginx-1.18.0/html/p1" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /p1 HTTP/1.1", host: "sghz001022166.szh.apac.bosch.com:90"
+2020/08/11 10:11:57 [error] 10496#12400: *174 CreateFile() "C:\Users\YGP2SZH\Desktop\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "sghz001022166.szh.apac.bosch.com:90", referrer: "http://sghz001022166.szh.apac.bosch.com:90/p1"
+2020/08/11 10:12:15 [error] 10496#12400: *176 CreateFile() "C:\Users\YGP2SZH\Desktop\nginx-1.18.0/html/p1" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /p1 HTTP/1.1", host: "sghz001022166:90"
+2020/08/11 10:12:15 [error] 10496#12400: *176 CreateFile() "C:\Users\YGP2SZH\Desktop\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "sghz001022166:90", referrer: "http://sghz001022166:90/p1"

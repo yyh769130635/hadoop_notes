@@ -20,3 +20,6 @@ netsh interface portproxy add v4tov4 listenport=90 connectaddress=127.0.0.1 conn
 netstat -aon|findstr "80"
 
 netsh interface portproxy delete v4tov4 listenport=8888 listenaddress=* protocol=tcp
+
+pip install pyinstaller
+pyinstaller -F main.py -w
